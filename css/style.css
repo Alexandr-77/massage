@@ -145,7 +145,7 @@ color: #212121;
 text-transform: capitalize;
 margin-bottom: 90px;
 }
-/*  дублирующие блоки заканчиваются */
+/*  ============= */
 .services__item {
    text-align: center;
    padding: 0 5px;
@@ -190,12 +190,12 @@ letter-spacing: 0.8px;
 /*   =========   абаут ============= */
 .about__block {
    text-align: center;
-   margin: 38px 0 150px;
-   padding: 0 5%;
+   margin: 36px 0 148px;
+   padding: 0;
 
 }
 .about__block__item {
-   margin: 0 0 30px;
+   margin: 0 0 34px;
    max-width: 570px;
 }
 .about__block__item__h2 {
@@ -211,7 +211,7 @@ letter-spacing: 0.8px;
 
 .about__block__item p {
    font-family: 'Roboto', sans-serif;
-   font-size: 36px;
+   font-size: 32px;
    line-height: 50px;
    font-weight: 400;
    color: #212121;
@@ -226,20 +226,42 @@ letter-spacing: 0.8px;
    color: #212121;
    padding: 44px 0 0;
    text-align: center;
-   margin-bottom: -5px;
+   margin-bottom: -2px;
 
 }
 .about__block__item img {
    max-width: 100%;
    object-fit: cover;
 }
+.about__block2__hr {
+   width: 110px;
+   height: 2px;
+   background-color: #e3dbee;
+   margin: -20px auto 30px;
+}
 /* ========= популянные ========== */
 .Popular {
    margin: 0 auto 150px;
    text-align: center;
 }
-
+.Popular h2 {
+   font-size: 16px;
+   line-height: 30px;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 0.12em;
+   color: #916fbc;
+}
+.Popular h3 {
+   font-size: 38px;
+   line-height: 60px;
+   font-weight: 500;
+   color: #212121;
+   margin-bottom: 28px;
+}
 .Popular__img img {
    width: 100%;
    padding: 5px;
 }
+
+
