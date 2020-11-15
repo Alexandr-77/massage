@@ -1,0 +1,245 @@
+
+body {
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.navbar-brand {
+   font-size: 34px;
+   line-height: 60px;
+   font-weight: 500;
+   text-transform: uppercase;
+   letter-spacing: 0.14em;
+}
+.navbar-brand img {
+   margin: 0 15px 7px 0;
+}
+.nav-link {
+   font-size: 14px;
+   line-height: 30px;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 0.12em;
+   color: #aeb0b5;
+   margin: 0 20px;
+}
+.nav-btn {
+   font-size: 14px;
+   line-height: 30px;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 0.12em;
+}
+/* ====== КАРУСЕЛЬ ====== */
+.carousel-item {
+   height: 770px;
+   width: 100%;
+   overflow: hidden;
+ }
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+ }
+
+.carousel-caption {
+   margin: 0 0 170px 35%;
+   text-align: left;
+}
+.carousel-caption h5 {
+   padding: 28px 0;
+   font-size: 66px;
+   line-height: 80px;
+   font-weight: 400;
+}
+.carousel-caption p {
+   font-size: 20px;
+   line-height: 40px;
+   font-weight: 100;
+   font-style: italic;
+   margin-bottom: 25px;
+}
+.btn-carousel {
+
+   font-size: 16px;
+   width: 220px;
+   height: 60px;
+   background-color: #916fbc;
+   border-radius: 3px;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 0.12em;
+}
+
+/*  блок второй */
+.block2 {
+font-size: 44px;
+line-height: 50px;
+font-weight: 400;
+color: #212121;
+margin-top: 68px;
+}
+.block2__hr {
+   width: 83px;
+   height: 2px;
+   background-color: #e3dbee;
+   margin: 0 auto 45px;
+}
+.block2__img {
+   text-align: center;
+}
+.block2__img img {
+   max-width: 370px;
+   width: 100%;
+   margin-bottom: 50px;
+   max-height: 200px;
+}
+.block2__img p {
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: 400;
+   color: #212121;
+   text-align: left;
+   margin-bottom: 50px;
+}
+/*  === блок сервис === */
+
+.cont-fialet {
+   background: #f9f9f9;
+   margin: 65px auto 60px;
+   /* min-height: 840px; */
+}
+.services {
+   display: flex;
+   justify-content: center;
+   max-width: 1170px;
+   font-size: 16px;
+   line-height: 30px;
+   text-transform: uppercase;
+   letter-spacing: 0.12em;
+   color: #916fbc;
+   margin: 0 auto;
+   /* border: aqua solid 1px; */
+}
+/*  Блоки будут повторятся дублируются */
+/*  Блоки будут повторятся дублируются */
+/*  Блоки будут повторятся дублируются */
+.fialet {
+   font-size: 16px;
+   line-height: 30px;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 0.12em;
+   color: #916fbc;
+   text-align: center;
+   margin: 70px auto 14px;
+}
+.block_h2{
+text-align: center;
+font-size: 35px;
+line-height: 50px;
+font-weight: 400;
+color: #212121;
+text-transform: capitalize;
+margin-bottom: 90px;
+}
+/*  дублирующие блоки заканчиваются */
+.services__item {
+   text-align: center;
+   padding: 0 5px;
+   margin-bottom: 50px;
+
+}
+
+.services__item__h3 {
+font-size: 20px;
+line-height: 30px;
+font-weight: 400;
+color: #212121;
+text-transform: capitalize;
+margin: 20px auto 8px;
+letter-spacing: 0.8px;
+}
+.services__item p {
+font-size: 12px;
+line-height: 24px;
+font-weight: 500;
+color: #333333;
+text-transform: capitalize;
+letter-spacing: 0.8px;
+
+}
+.services__img {
+   max-width: 550px;
+   margin-left: 100px;
+   margin: 0 auto;
+
+}
+.services__img img {
+   display: block;
+   justify-content: center;
+   text-align: center;
+   margin: 0 auto;
+   max-width: 550px;
+   min-width: 220px;
+   width: 100%;
+
+}
+/*   =========   абаут ============= */
+.about__block {
+   text-align: center;
+   margin: 38px 0 150px;
+   padding: 0 5%;
+
+}
+.about__block__item {
+   margin: 0 0 30px;
+   max-width: 570px;
+}
+.about__block__item__h2 {
+   padding: 50px 0 14px;
+   font-size: 16px;
+   line-height: 30px;
+   font-weight: 500;
+   text-transform: uppercase;
+   letter-spacing: 0.12em;
+   color: #916fbc;
+   text-align: center;
+}
+
+.about__block__item p {
+   font-family: 'Roboto', sans-serif;
+   font-size: 36px;
+   line-height: 50px;
+   font-weight: 400;
+   color: #212121;
+   letter-spacing: 0.8px;
+   text-align: center;
+
+}
+.about__block__item__pp {
+   font-size: 16px !important;
+   line-height: 30px !important;
+   font-weight: 400;
+   color: #212121;
+   padding: 44px 0 0;
+   text-align: center;
+   margin-bottom: -5px;
+
+}
+.about__block__item img {
+   max-width: 100%;
+   object-fit: cover;
+}
+/* ========= популянные ========== */
+.Popular {
+   margin: 0 auto 150px;
+   text-align: center;
+}
+
+.Popular__img img {
+   width: 100%;
+   padding: 5px;
+}
