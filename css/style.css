@@ -255,11 +255,11 @@ letter-spacing: 0.8px;
 .Popular h3 {
    font-size: 38px;
    line-height: 60px;
-   font-weight: 500;
+   font-weight: 400;
    color: #212121;
-   margin-bottom: 28px;
+   margin-bottom: 32px;
 }
-.Popular__img img {
+.Popular img {
    width: 100%;
    padding: 5px;
 }
