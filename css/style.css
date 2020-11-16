@@ -296,14 +296,16 @@ letter-spacing: 0.8px;
    margin: 60px auto;
 }
 .discount__img {
-   margin: 32px 0;
+   margin: 22px 0;
 }
 .discount__text {
    font-size: 14px;
-   line-height: 40px;
+   line-height: 20px;
    font-weight: 400;
    text-transform: uppercase;
    color: #212121;
-   padding: 14px 0 0 30px;
+   padding: 18px;
+   margin: 0;
+   
 }
 
