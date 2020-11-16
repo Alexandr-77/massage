@@ -292,13 +292,14 @@ letter-spacing: 0.8px;
    padding: 7px 40px;
 }
 .discount-2 {
-   margin: 60px 0;
+   margin: 60px auto;
 }
 .discount__img {
    margin: 32px 0;
 }
 .discount__text {
-   line-height: 20px;
+   font-size: 14px;
+   line-height: 40px;
    font-weight: 400;
    text-transform: uppercase;
    color: #212121;
