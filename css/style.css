@@ -310,9 +310,9 @@ letter-spacing: 0.8px;
 /*  === have-time ===  */
 .have-time {
    position: relative;
-   padding: 175px 0 218px;
+   padding: 175px 0 220px;
    background: #373737 url(../img/have-time/spa.jpg) center no-repeat;
-   margin-bottom: 100px;
+   margin-bottom: 130px;
    z-index: 1;
 }
 .have-time::before {
@@ -334,3 +334,52 @@ letter-spacing: 0.8px;
    padding: 0 5px;
    z-index: 3;
 }
+
+/*  =====  memberships  ======  */
+.memberships {
+   margin-bottom: 100px;
+}
+.memberships h2 {
+   font-size: 16px;
+   line-height: 30px;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 0.18em;
+   color: #916fbc;
+   padding: 30px 0 16px;
+}
+.memberships h3 {
+   font-size: 32px;
+   line-height: 50px;
+   font-weight: 400;
+   color: #212121
+}
+.memberships p {
+   font-size: 14px;
+   line-height: 30px;
+   font-weight: 400;
+   color: #212121;
+   padding: 10px 0 22px;
+}
+h2.underscore {
+   font-size: 16px;
+   line-height: 10px;
+   letter-spacing: 1.5px;
+   text-transform: uppercase;
+   color: #916fbc;
+   padding: 22px 0 2px;
+}
+.memberships__hr {
+   width: 102px;
+   height: 1px;
+   opacity: 0.25;
+   background-color: #916fbc;
+
+}
+.memberships img {
+   min-height: 500px;
+   max-width: 100%;
+   object-fit: cover;
+}
+
+
