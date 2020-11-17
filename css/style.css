@@ -23,14 +23,19 @@ body {
    text-transform: uppercase;
    letter-spacing: 0.12em;
    color: #aeb0b5;
-   margin: 0 20px;
+   margin: 0 18px;
 }
 .nav-btn {
    font-size: 14px;
-   line-height: 30px;
+   line-height: 28px;
    font-weight: 400;
    text-transform: uppercase;
-   letter-spacing: 0.12em;
+   letter-spacing: 0.10em;
+   
+}
+.nav-btn a {
+   color: #fff;
+   text-decoration: none;
 }
 /* ====== КАРУСЕЛЬ ====== */
 
@@ -63,7 +68,6 @@ body {
    margin-bottom: 25px;
 }
 .btn-carousel {
-
    font-size: 16px;
    width: 220px;
    height: 60px;
@@ -73,6 +77,13 @@ body {
    text-transform: uppercase;
    letter-spacing: 0.12em;
    color: #fff;
+}
+.btn-carousel a {
+   color: #fff;
+   text-decoration: none;
+}
+.btn-carousel:hover {
+   background-color: #745899;
 }
 
 /*  блок второй */
@@ -217,8 +228,18 @@ letter-spacing: 0.8px;
    color: #212121;
    letter-spacing: 0.8px;
    text-align: center;
-
 }
+.about__block__item a {
+   text-decoration: none;
+}
+.about__block__item a:hover h2 {
+   color: #745899;
+}
+.about__block__item a:hover hr {
+   background-color: #745899;
+}
+
+
 .about__block__item__pp {
    font-size: 16px !important;
    line-height: 30px !important;
@@ -239,6 +260,7 @@ letter-spacing: 0.8px;
    background-color: #e3dbee;
    margin: -20px auto 30px;
 }
+
 /* ========= популянные ========== */
 .Popular {
    margin: 0 auto 196px;
@@ -291,6 +313,14 @@ letter-spacing: 0.8px;
    background-color: #916fbc;
    border-radius: 3px;
    padding: 7px 40px;
+}
+.btn-discount a {
+   color: #ffffff;
+   text-decoration: none;
+}
+.btn-discount:hover {
+   background-color: #745899;
+   color: #ffffff;
 }
 .discount-2 {
    margin: 70px auto 84px;
@@ -360,6 +390,17 @@ letter-spacing: 0.8px;
    font-weight: 400;
    color: #212121;
    padding: 10px 0 22px;
+}
+.memberships a {
+   text-decoration: none;
+}
+
+.memberships a:hover h2 {
+   color: #745899;
+   text-decoration: none;
+}
+.memberships a:hover hr {
+   background-color: #512e7e;
 }
 h2.underscore {
    font-size: 16px;
