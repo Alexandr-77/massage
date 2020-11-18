@@ -120,24 +120,15 @@ margin-top: 68px;
 /*  === блок сервис === */
 
 .cont-fialet {
-   background: #f9f9f9;
    margin: 65px auto 60px;
-   /* min-height: 840px; */
 }
 .services {
-   display: flex;
-   justify-content: center;
    font-size: 16px;
    line-height: 30px;
    text-transform: uppercase;
    letter-spacing: 0.12em;
    color: #916fbc;
-   margin: 0 auto;
-   /* border: aqua solid 1px; */
 }
-/*  Блоки будут повторятся дублируются */
-/*  Блоки будут повторятся дублируются */
-/*  Блоки будут повторятся дублируются */
 .fialet {
    font-size: 16px;
    line-height: 30px;
@@ -149,54 +140,50 @@ margin-top: 68px;
    margin: 70px auto 14px;
 }
 .block_h2{
-text-align: center;
-font-size: 35px;
-line-height: 50px;
-font-weight: 400;
-color: #212121;
-text-transform: capitalize;
-margin-bottom: 90px;
+   text-align: center;
+   font-size: 35px;
+   line-height: 50px;
+   font-weight: 400;
+   color: #212121;
+   text-transform: capitalize;
+   margin-bottom: 90px;
 }
-/*  ============= */
+/* .services-row {
+   display: flex;
+   flex-wrap: wrap;
+} */
+
 .services__item {
    text-align: center;
    padding: 0 5px;
    margin-bottom: 50px;
-
 }
-
 .services__item__h3 {
-font-size: 20px;
-line-height: 30px;
-font-weight: 400;
-color: #212121;
-text-transform: capitalize;
-margin: 20px auto 8px;
-letter-spacing: 0.8px;
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: 400;
+   color: #212121;
+   text-transform: capitalize;
+   margin: 20px auto 8px;
+   letter-spacing: 0.8px;
 }
 .services__item p {
-font-size: 12px;
-line-height: 24px;
-font-weight: 500;
-color: #333333;
-text-transform: capitalize;
-letter-spacing: 0.8px;
-
+   font-size: 12px;
+   line-height: 24px;
+   font-weight: 500;
+   color: #333333;
+   text-transform: capitalize;
+   letter-spacing: 0.8px;
 }
 .services__img {
-   max-width: 550px;
-   margin-left: 100px;
-   margin: 0 auto;
+   /* max-width: 550px; */
+
 
 }
 .services__img img {
    display: block;
-   justify-content: center;
-   text-align: center;
    margin: 0 auto;
-   max-width: 550px;
-   min-width: 220px;
-   width: 100%;
+   max-width: 100%;
 }
 /*   =========  about  ========== */
 .about__block {
