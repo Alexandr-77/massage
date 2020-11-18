@@ -123,6 +123,7 @@ margin-top: 68px;
    margin: 65px auto 60px;
 }
 .services {
+   margin-bottom: 204px;
    font-size: 16px;
    line-height: 30px;
    text-transform: uppercase;
@@ -148,10 +149,7 @@ margin-top: 68px;
    text-transform: capitalize;
    margin-bottom: 90px;
 }
-/* .services-row {
-   display: flex;
-   flex-wrap: wrap;
-} */
+
 
 .services__item {
    text-align: center;
@@ -175,11 +173,7 @@ margin-top: 68px;
    text-transform: capitalize;
    letter-spacing: 0.8px;
 }
-.services__img {
-   /* max-width: 550px; */
 
-
-}
 .services__img img {
    display: block;
    margin: 0 auto;
@@ -354,7 +348,7 @@ margin-top: 68px;
 
 /*  =====  memberships  ======  */
 .memberships {
-   margin-bottom: 100px;
+   margin-bottom: 130px;
 }
 .memberships h2 {
    font-size: 16px;
@@ -376,7 +370,8 @@ margin-top: 68px;
    line-height: 30px;
    font-weight: 400;
    color: #212121;
-   padding: 10px 0 22px;
+   padding: 10px 0 0px;
+   margin-bottom: 10px;
 }
 .memberships a {
    text-decoration: none;
@@ -408,6 +403,65 @@ h2.underscore {
    min-height: 500px;
    max-width: 100%;
    object-fit: cover;
+}
+/* ===== special deal ===== */
+.special-deal {
+   margin: 100px 0;
+}
+
+.img-btn-cover__wrap {
+   position: relative;
+   /* padding: 125px 25px 0 35px; */
+   /* height: 320px; */
+   align-items: center;
+   text-align: center;
+}
+.img-btn-cover__wrap button {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   padding: 18px 58px;
+   border: 2px solid #916fbc;
+   text-transform: uppercase;
+   letter-spacing: 0.12em;
+   color: #ffffff;
+   background: rgb(57%, 44%, 74%, 0.5);
+}
+.special-deal a {
+   display: block;
+   text-transform: uppercase;
+   color: #ffffff;
+   text-decoration: none;
+
+}
+.special-deal button:hover {
+   background: #916fbc;
+   color: #ffffff;
+}
+.special-deal h2 {
+   font-size: 16px;
+   line-height: 30px;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 0.18em;
+   color: #916fbc;
+   padding: 50px 0 12px;
+}
+.special-deal h3 {
+   font-size: 38px;
+   line-height: 50px;
+   font-weight: 400;
+   color: #212121;
+   padding-bottom: 10px;
+}
+.special-deal p {
+   font-size: 16px;
+   line-height: 30px;
+   font-weight: 400;
+   color: #212121;
+   padding-bottom: 50px;
 }
 
 
