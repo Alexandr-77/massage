@@ -1,6 +1,6 @@
 
 body {
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Nunito', sans-serif;
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -9,7 +9,7 @@ body {
 .navbar-brand {
    font-size: 34px;
    line-height: 60px;
-   font-weight: 500;
+   font-weight: 600;
    text-transform: uppercase;
    letter-spacing: 0.14em;
 }
@@ -19,7 +19,6 @@ body {
 .nav-link {
    font-size: 14px;
    line-height: 30px;
-   font-weight: 400;
    text-transform: uppercase;
    letter-spacing: 0.12em;
    color: #aeb0b5;
@@ -28,7 +27,6 @@ body {
 .nav-btn {
    font-size: 14px;
    line-height: 28px;
-   font-weight: 400;
    text-transform: uppercase;
    letter-spacing: 0.10em;
    
@@ -63,7 +61,7 @@ body {
 .carousel-caption p {
    font-size: 20px;
    line-height: 40px;
-   font-weight: 100;
+   font-weight: 200;
    font-style: italic;
    margin-bottom: 25px;
 }
@@ -73,7 +71,6 @@ body {
    height: 60px;
    background-color: #916fbc;
    border-radius: 3px;
-   font-weight: 400;
    text-transform: uppercase;
    letter-spacing: 0.12em;
    color: #fff;
@@ -84,13 +81,12 @@ body {
 }
 .btn-carousel:hover {
    background-color: #745899;
+   color: #fff;
 }
-
 /*  блок второй */
 .block2 {
 font-size: 44px;
 line-height: 50px;
-font-weight: 400;
 color: #212121;
 margin-top: 68px;
 }
@@ -112,7 +108,6 @@ margin-top: 68px;
 .block2__img p {
    font-size: 20px;
    line-height: 30px;
-   font-weight: 400;
    color: #212121;
    text-align: left;
    margin-bottom: 50px;
@@ -133,7 +128,6 @@ margin-top: 68px;
 .fialet {
    font-size: 16px;
    line-height: 30px;
-   font-weight: 400;
    text-transform: uppercase;
    letter-spacing: 0.12em;
    color: #916fbc;
@@ -144,7 +138,6 @@ margin-top: 68px;
    text-align: center;
    font-size: 35px;
    line-height: 50px;
-   font-weight: 400;
    color: #212121;
    text-transform: capitalize;
    margin-bottom: 90px;
@@ -157,18 +150,16 @@ margin-top: 68px;
    margin-bottom: 50px;
 }
 .services__item__h3 {
-   font-size: 20px;
+   font-size: 22px;
    line-height: 30px;
-   font-weight: 400;
    color: #212121;
    text-transform: capitalize;
    margin: 20px auto 8px;
    letter-spacing: 0.8px;
 }
 .services__item p {
-   font-size: 12px;
-   line-height: 24px;
-   font-weight: 500;
+   font-size: 14px;
+   line-height: 26px;
    color: #333333;
    text-transform: capitalize;
    letter-spacing: 0.8px;
@@ -194,7 +185,7 @@ margin-top: 68px;
    padding: 50px 0 14px;
    font-size: 16px;
    line-height: 30px;
-   font-weight: 500;
+   font-weight: 600;
    text-transform: uppercase;
    letter-spacing: 0.12em;
    color: #916fbc;
@@ -205,7 +196,6 @@ margin-top: 68px;
    font-family: 'Roboto', sans-serif;
    font-size: 32px;
    line-height: 50px;
-   font-weight: 400;
    color: #212121;
    letter-spacing: 0.8px;
    text-align: center;
@@ -224,7 +214,6 @@ margin-top: 68px;
 .about__block__item__pp {
    font-size: 16px !important;
    line-height: 30px !important;
-   font-weight: 400;
    color: #212121;
    padding: 44px 0 0;
    text-align: center;
@@ -250,7 +239,6 @@ margin-top: 68px;
 .Popular h2 {
    font-size: 16px;
    line-height: 30px;
-   font-weight: 400;
    text-transform: uppercase;
    letter-spacing: 0.12em;
    color: #916fbc;
@@ -258,7 +246,6 @@ margin-top: 68px;
 .Popular h3 {
    font-size: 38px;
    line-height: 60px;
-   font-weight: 400;
    color: #212121;
    margin-bottom: 32px;
 }
@@ -272,25 +259,20 @@ margin-top: 68px;
 .discount__p1 {
    font-size: 38px;
    line-height: 50px;
-   font-weight: 400;
    color: #212121;
    padding-right: 45px;
 }
 .discount__p2 {
    font-size: 16px;
    line-height: 30px;
-   font-weight: 400;
    color: #212121;
    margin: 20px 0 70px;
 }
 .btn-discount {
    line-height: 45px;
-   font-weight: 400;
    text-transform: uppercase;
    letter-spacing: 0.12em;
    color: #ffffff;
-   /* width: 180px;
-   height: 60px; */
    background-color: #916fbc;
    border-radius: 3px;
    padding: 7px 40px;
@@ -312,7 +294,6 @@ margin-top: 68px;
 .discount__text {
    font-size: 14px;
    line-height: 20px;
-   font-weight: 400;
    text-transform: uppercase;
    color: #212121;
    padding: 18px;
@@ -340,7 +321,6 @@ margin-top: 68px;
 .have-time h3 {
    font-size: 44px;
    line-height: 60px;
-   font-weight: 400;
    color:#ffffff;
    padding: 0 5px;
    z-index: 3;
@@ -353,7 +333,6 @@ margin-top: 68px;
 .memberships h2 {
    font-size: 16px;
    line-height: 30px;
-   font-weight: 400;
    text-transform: uppercase;
    letter-spacing: 0.18em;
    color: #916fbc;
@@ -362,13 +341,11 @@ margin-top: 68px;
 .memberships h3 {
    font-size: 32px;
    line-height: 50px;
-   font-weight: 400;
    color: #212121
 }
 .memberships p {
    font-size: 14px;
    line-height: 30px;
-   font-weight: 400;
    color: #212121;
    padding: 10px 0 0px;
    margin-bottom: 10px;
@@ -400,7 +377,7 @@ h2.underscore {
 
 }
 .memberships img {
-   min-height: 500px;
+   min-height: 600px;
    max-width: 100%;
    object-fit: cover;
 }
@@ -440,7 +417,6 @@ h2.underscore {
 .special-deal h2 {
    font-size: 16px;
    line-height: 30px;
-   font-weight: 400;
    text-transform: uppercase;
    letter-spacing: 0.18em;
    color: #916fbc;
@@ -449,14 +425,12 @@ h2.underscore {
 .special-deal h3 {
    font-size: 38px;
    line-height: 50px;
-   font-weight: 400;
    color: #212121;
    padding-bottom: 10px;
 }
 .special-deal p {
    font-size: 16px;
    line-height: 30px;
-   font-weight: 400;
    color: #212121;
    padding-bottom: 50px;
 }
