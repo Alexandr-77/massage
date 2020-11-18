@@ -117,7 +117,7 @@ margin-top: 68px;
    text-align: left;
    margin-bottom: 50px;
 }
-/*  === блок сервис === */
+/*  =====  блок сервис  ===== */ /*  =====  блок сервис  ===== */
 
 .cont-fialet {
    margin: 65px auto 60px;
@@ -404,15 +404,13 @@ h2.underscore {
    max-width: 100%;
    object-fit: cover;
 }
-/* ===== special deal ===== */
+/* =====  special deal  ===== */ /* =====  special deal  ===== */
 .special-deal {
    margin: 100px 0;
 }
 
 .img-btn-cover__wrap {
    position: relative;
-   /* padding: 125px 25px 0 35px; */
-   /* height: 320px; */
    align-items: center;
    text-align: center;
 }
@@ -422,7 +420,7 @@ h2.underscore {
    left: 50%;
    transform: translate(-50%, -50%);
    text-align: center;
-   padding: 18px 58px;
+   padding: 12px 40px;
    border: 2px solid #916fbc;
    text-transform: uppercase;
    letter-spacing: 0.12em;
@@ -434,7 +432,6 @@ h2.underscore {
    text-transform: uppercase;
    color: #ffffff;
    text-decoration: none;
-
 }
 .special-deal button:hover {
    background: #916fbc;
@@ -464,4 +461,4 @@ h2.underscore {
    padding-bottom: 50px;
 }
 
-
+/* ===================  ==================== */
