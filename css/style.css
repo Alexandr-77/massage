@@ -286,7 +286,7 @@ margin-top: 68px;
    color: #ffffff;
 }
 .discount-2 {
-   margin: 70px auto 84px;
+   margin: 70px auto 62px;
 }
 .discount__img {
    margin: 22px 0;
@@ -348,7 +348,7 @@ margin-top: 68px;
    line-height: 30px;
    color: #212121;
    padding: 10px 0 0px;
-   margin-bottom: 10px;
+   margin-bottom: 32px;
 }
 .memberships a {
    text-decoration: none;
@@ -367,7 +367,7 @@ h2.underscore {
    letter-spacing: 1.5px;
    text-transform: uppercase;
    color: #916fbc;
-   padding: 22px 0 2px;
+   padding: 28px 0 2px;
 }
 .memberships__hr {
    width: 102px;
@@ -377,13 +377,13 @@ h2.underscore {
 
 }
 .memberships img {
-   min-height: 600px;
+   min-height: 500px;
    max-width: 100%;
    object-fit: cover;
 }
 /* =====  special deal  ===== */ /* =====  special deal  ===== */
 .special-deal {
-   margin: 100px 0;
+   margin: 100px 0 72px;
 }
 
 .img-btn-cover__wrap {
@@ -435,4 +435,71 @@ h2.underscore {
    padding-bottom: 50px;
 }
 
-/* ===================  ==================== */
+/* ===== form ===== */ /* ===== form ===== */
+.form-block h2 {
+   font-size: 16px;
+   line-height: 50px;
+   text-transform: uppercase;
+   letter-spacing: 0.12em;
+   color: #916fbc;
+   margin: 76px 0 0 0;
+}
+.form-block h4 {
+   font-size: 16px;
+   line-height: 50px;
+   text-transform: uppercase;
+   letter-spacing: 0.12em;
+   color: #aeb0b5;
+   margin: 0;
+}
+/*  */
+.form-block {
+   margin-bottom: 120px;
+}
+.form-block h3 {
+   font-size: 38px;
+   line-height: 50px;
+   color: #212121;
+   margin-bottom: 38px;
+}
+.form-block p {
+   margin: 0 0 12px 0;
+}
+.form-block p a {
+   color: #7aa481;
+}
+/*  form-row */
+
+.form-row h6 {
+   font-size: 16px;
+   line-height: 30px;
+   font-weight: 400;
+   color: #aeb0b5;
+   margin: 10px 0 0 0;
+}
+.form-row input {
+   height: 63px;
+}
+.form-row textarea {
+   width: 730px;
+   max-width: 100%;
+   height: 116px;
+   padding: 0 5px;
+}
+.form-row a {
+   text-decoration: none;
+   font-size: 16px;
+   line-height: 50px;
+   text-transform: uppercase;
+   letter-spacing: 0.12em;
+   color: #ffffff;
+}
+.form-row button {
+   width: 270px;
+   height: 60px;
+   background-color: #916fbc;
+   border: none;
+}
+.form-row button:hover {
+   background:#745899;
+}
