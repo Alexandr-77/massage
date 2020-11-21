@@ -7,7 +7,7 @@ body {
 }
 
 .navbar-brand {
-   font-size: 34px;
+   font-size: 30px;
    line-height: 60px;
    font-weight: 600;
    text-transform: uppercase;
@@ -475,7 +475,11 @@ h2.underscore {
    margin: 0 0 12px 0;
 }
 .form-block p a {
+   /* display: inline-block; */
    color: #7aa481;
+   padding-left: 10px;
+
+
 }
 /*  form-row */
 
@@ -532,9 +536,17 @@ h2.underscore {
    text-transform: uppercase;
    letter-spacing: 0.14em;
 }
+.footer__row__col-1 h6 {
+   line-height: 30px;
+   font-size: 16px;
+   text-transform: none;
+   letter-spacing: 0;
+}
 .footer__row__col-1 a {
+   display: block;
    text-decoration: none;
    color: #fff;
+   margin-bottom: 30px;
 }
 
 .footer__row__col-1 img {
@@ -562,7 +574,7 @@ h2.underscore {
    max-width: 1170px;
    height: 1px;
    background-color: #3a3b43;
-   margin-top: 80px;
+   /* margin-top: 80px; */
 }
 .row-and {
    max-width: 1170px;
