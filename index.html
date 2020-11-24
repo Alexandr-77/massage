@@ -24,16 +24,16 @@
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto ">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Главная<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Главная<span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Услуги</a>
+              <a class="nav-link" href="#about">о нас</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Цены</a>
+              <a class="nav-link" href="#sale">Скидки</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Контакты</a>
+              <a class="nav-link" href="#contakts">Контакты</a>
             </li>
           </ul>
           <a href="#"><button class="btn btn-outline-success nav-btn my-3 my-sm-0 py-2 px-5">Заказать</button></a>
@@ -168,7 +168,7 @@
 
    <!-- ====================== about ================================== -->
 
-   <div class="container">
+   <div class="container" id="about">
       <div class="about__block">
          <div class="row">
             <div class="col-sm-12 col-lg-6">
@@ -192,10 +192,8 @@
             <div class="col-sm-12 col-lg-6">
                <div class="about__block__item">
                   <p class="about__block__item__pp">Спа-салон Heaven Spa, недавно удостоенный престижной и весьма желанной награды «Пять звезд» от Forbes Travel Guide, предлагающий чувственное путешествие, которое успокаивает и оживляет разум, тело и дух.</p>
-                  <a href="#">
-                     <h2 class="about__block__item__h2">Heaven Spa</h2>
-                     <hr class="about__block2__hr">
-                  </a>
+                  <h2 class="about__block__item__h2">Heaven Spa</h2>
+                  <hr class="about__block2__hr">
                </div>
             </div>
          </div>
@@ -216,7 +214,7 @@
       </div>
    </div>
 
-   <div class="container discount">
+   <div class="container discount" id="sale">
       <div class="row">
          <div class="col-12 col-md-6">
             <p class="discount__p1">СКИДКА 20%, если вы присоединитесь к нам во время счастливого часа в спа-салоне с понедельника по четверг.</p>
@@ -270,10 +268,10 @@
                <h2 class="underscore">Заказать сейчас</h2>
                <hr class="memberships__hr my-0">
             </a>
-            <a href="#">
+            <!-- <a href="#">
                <h2 class="underscore">Просмотреть пакеты</h2>
                <hr class="memberships__hr my-0">
-            </a>
+            </a> -->
          </div>
          <div class="col-12 col-md-6 col-lg-4 pb-2">
             <img class="img-fluid" src="./img/memberships/693_content.jpg" alt="картинка">
@@ -292,7 +290,7 @@
             <div class="img-btn-cover">
                <div class="img-btn-cover__wrap">
                   <img class="img-fluid" src="./img/special-deal/13.jpg" alt="картинка">
-                  <a href="#"><button>find more</button></a>
+                  <!-- <a href="#"><button>Посмотреть</button></a> -->
                </div>
             </div>
          </div>
@@ -302,19 +300,14 @@
          <div class="col-12 mb-3 col-md-6 col-lg-4 col-xl-4">
             <h2>Специальное предложение</h2>
             <h3>Эксклюзивные Предложения</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat lobortis velit, ut semper mi porttitor sit amet.</p>
+            <p>При покупке двух обонементов третий в подарок. Только в ноябре! Клубная карта SPA на 3 месяца по цене 190 руб!</p>
          </div>
       </div>
    </div>
 
    <div class="container">
       <div class="row form-block">
-         <div class="col-12 col-lg-4 form-block__m">
-            <a href="#"><h4>Reservation</h4></a>
-            <a href="#"><h4>Hours</h4></a>
-            <a href="#"><h4>Locations</h4></a>
-         </div>
-         <div class="col-12 col-lg-8">
+         <div class="col-12 col-lg-8 mx-aut">
             <h3>Резервировать</h3>
             <p>Выберите услугу для бронирования ниже. Чтобы назначить встречу, звоните<a href="#">785-214-4882</a>.</p>
 
@@ -337,12 +330,17 @@
                     </div>
                </div>
              </form>
+         </div>
 
+         <div class="col-12 col-lg-4 form-block__m">
+            <!-- <a href="#"><h4>Reservation</h4></a>
+            <a href="#"><h4>Hours</h4></a>
+            <a href="#"><h4>Locations</h4></a> -->
          </div>
       </div>
    </div>
    <!-- ============  ФУТЕР  ===============-->   <!-- ============  ФУТЕР  ===============-->
-   <div class="container-fluid footer">
+   <div class="container-fluid footer" id="contakts">
       <div class="row footer__row">
          <div class="col-12 col-md-4 footer__row__col-1 mb-5">
             <a href="#"><img src="./img/logo.svg" alt="лого">logo</a>
