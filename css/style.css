@@ -561,14 +561,24 @@ h2.underscore {
 
 .footer__row__col-3 a {
    text-decoration: none;
+   display: inline-block;
+   color: #fff;
+   background-color: #3a3b43;
+   /* padding: 10px; */
+   border-radius: 50px;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   transition: all .3s ease;
 }
 .footer__row__col-3 i {
    font-size: 20px;
    color: #fff;
-   margin: 16px 10px 0 4px;
+   margin: 11px 10px 0 4px;
+   padding: 0 0 1px 5px;
 }
-.footer__row__col-3 i:hover {
-   color: #916fbc;
+.footer__row__col-3 a:hover {
+   background: #384050;
 }
 .footer hr {
    max-width: 1170px;
