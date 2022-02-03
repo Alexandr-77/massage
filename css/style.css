@@ -36,7 +36,9 @@ body {
    text-decoration: none;
 }
 /* ====== КАРУСЕЛЬ ====== */
-
+.carousel {
+   width: 100%;
+}
 .carousel-item {
    height: 770px;
    width: 100%;
